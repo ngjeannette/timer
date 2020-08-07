@@ -1,0 +1,100 @@
+.setTimerButtons, .setTimerButtonsLarge{
+    display: flex;
+    align-items: center;
+        justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.setTimerButtonsLarge{
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+.setTimerButtons {
+        /* border-bottom: 1px solid white; */
+    padding-bottom: 20px;
+}
+.workTimerContainer{
+    display: flex;
+    flex-direction: column;
+}
+.workTimerContainer h2 {
+    text-align: center;
+}
+.workTimerContainer h3 {
+        text-align: center;
+    margin-bottom: 10px;
+}
+.workTimer, .restTimer, .intervalTimer{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #454545;
+    background: #99A89E;
+}
+.workTimerLarge, .restTimerLarge, .intervalTimerLarge{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #454545;
+        background-image: linear-gradient( 45deg, #C6DFD6 10%, #D7DBD1 );
+}
+
+
+.workTimerLarge span{
+    font-size: 40px;
+    color: #454545;
+}
+
+.workTimerContainer span {
+    text-align: center;
+}
+button {
+    cursor: pointer;
+    display: inline-block;
+    min-height: 1em;
+    outline: 0;
+    border: none;
+    vertical-align: baseline;
+    background: #e0e1e2 none;
+    color: rgba(0,0,0,.6);
+    margin: 0 .25em 0 0;
+    padding: .78571429em 1.5em .78571429em;
+    text-transform: none;
+    text-shadow: none;
+    font-weight: 700;
+    line-height: 1em;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    border-radius: .28571429rem;
+    background-color: #2185d0;
+    color: #fff;
+    text-shadow: none;
+    background-image: none;
+    width: 200px;
+    font-size: 1em;
+    
+}
+.timerbutton{
+    display: flex;
+    justify-content: center;
+}
+
+.workTimer input{
+    width: 67%;
+}
+
+.workTimerContainer span {
+    text-align: center;
+}
+.action {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}

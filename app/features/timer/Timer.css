@@ -1,0 +1,85 @@
+.setTimerButtons{
+    display: flex;
+    justify-content: space-evenly;
+    height: 57vh;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.workTimerContainer{
+    display: flex;
+    flex-direction: column;
+}
+.workTimerContainer h2 {
+    text-align: center;
+}
+.workTimer, .restTimer, .intervalTimer{
+   width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #454545;
+    background-image: linear-gradient( 45deg, #C6DFD6 10%, #D7DBD1 );
+}
+
+.workTimer input{
+    width: 67%;
+        height: 60px;
+    font-size: 60px;
+    border: none;
+    color: #454545;
+    background: transparent;
+    text-align: center;
+    padding-left: 19px;
+}
+
+.workTimerContainer span {
+    text-align: center;
+}
+button {
+    cursor: pointer;
+    display: inline-block;
+    min-height: 1em;
+    outline: 0;
+    border: none;
+    vertical-align: baseline;
+    background: #e0e1e2 none;
+    color: rgba(0,0,0,.6);
+    margin: 0 .25em 0 0;
+    padding: .78571429em 1.5em .78571429em;
+    text-transform: none;
+    text-shadow: none;
+    font-weight: 700;
+    line-height: 1em;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    border-radius: .28571429rem;
+    background-color: #2185d0;
+    color: #fff;
+    text-shadow: none;
+    background-image: none;
+    width: 110px;
+    font-size: 1em;
+    
+}
+.timerbutton{
+    display: flex;
+    justify-content: center;
+}
+
+.notification {
+    border: 1px solid black;
+    border-radius: .28571429rem;
+    width: 183px;
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+}
+.notification p {
+    margin: 10px;
+    font-size: 20px;
+    color: #454545;
+}
